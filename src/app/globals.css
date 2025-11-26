@@ -1,16 +1,21 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #f4f5f7;
-  --navy: #004276;
-  --navy-dark: #002c4d;
-  --red: #e3343f;
-  --green: #2baf3b;
+  --bg: #f6eee3;        /* softer warm background */
+  --surface: #fdf7ee;   /* off-white for cards instead of pure white */
+
+  --navy: #101827;
+  --navy-soft: #0b1220;
+
+  --green: #143326;
+  --red: #701713;
+  --gold: #c89a3c;
 }
+
 
 body {
   background-color: var(--bg);
-  color: #020617; /* close to slate-950 */
+  color: var(--navy);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
   -webkit-font-smoothing: antialiased;
