@@ -31,12 +31,6 @@ export default function HomePage() {
     "Reliable scheduling",
   ];
 
-  const specials = [
-    "$99 seasonal tune-up",
-    "Drain cleaning offers",
-    "New system financing available",
-  ];
-
   return (
     <main
       className="min-h-screen bg-[var(--bg)] text-slate-900"
@@ -245,16 +239,6 @@ export default function HomePage() {
             <h3 className="mt-3 text-3xl font-semibold text-[var(--navy)]">
               Seasonal specials that make comfort more affordable.
             </h3>
-            <div className="mt-6 space-y-3">
-              {specials.map((item) => (
-                <div
-                  key={item}
-                  className="rounded-2xl border border-slate-200 bg-white px-4 py-4 text-sm font-medium text-slate-700"
-                >
-                  {item}
-                </div>
-              ))}
-            </div>
             <button className="mt-6 rounded-full bg-[var(--red)] px-5 py-3 text-sm font-semibold text-white transition hover:brightness-110">
               Schedule an Estimate
             </button>
