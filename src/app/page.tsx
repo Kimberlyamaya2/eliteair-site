@@ -47,7 +47,7 @@ export default function HomePage() {
       >
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(182,135,43,0.12),transparent_32%)]" />
 
-        <div className="relative mx-auto grid max-w-6xl gap-12 px-6 py-16 md:grid-cols-[0.95fr_1.05fr] md:items-center md:gap-16 md:py-24">
+        <div className="relative mx-auto grid max-w-6xl gap-10 px-6 py-10 md:grid-cols-[0.95fr_1.05fr] md:items-center md:gap-12 md:py-14">
           <div className="max-w-xl space-y-5">
             <div className="inline-flex items-center gap-2 rounded-full border border-[var(--gold)]/40 bg-black/20 px-4 py-1.5 text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--gold-soft)]">
               <span>Residential &amp; Commercial</span>
@@ -59,7 +59,7 @@ export default function HomePage() {
               Elite Air Heating &amp; Cooling Company
             </p>
 
-            <h1 className="max-w-lg text-4xl font-semibold leading-[1.08] text-white md:text-6xl">
+            <h1 className="max-w-lg text-4xl font-semibold leading-[1.08] text-white md:text-5xl">
               Check out our seasonal
               <span className="block">specials and save!</span>
             </h1>
@@ -92,14 +92,14 @@ export default function HomePage() {
           </div>
 
           <div className="flex justify-center md:justify-end">
-            <div className="w-full max-w-[460px] rounded-[28px] border border-white/10 bg-white/6 p-4 shadow-[0_22px_55px_rgba(0,0,0,0.28)] backdrop-blur-sm md:p-6">
-              <div className="rounded-[24px] border border-white/10 bg-[linear-gradient(160deg,rgba(255,255,255,0.08),rgba(255,255,255,0.03))] p-5 md:p-6">
+            <div className="w-full max-w-[420px] rounded-[28px] border border-white/10 bg-white/6 p-4 shadow-[0_22px_55px_rgba(0,0,0,0.28)] backdrop-blur-sm md:p-5">
+              <div className="rounded-[24px] border border-white/10 bg-[linear-gradient(160deg,rgba(255,255,255,0.08),rgba(255,255,255,0.03))] p-5">
                 <div className="mb-4 flex items-start justify-between gap-4">
                   <div>
                     <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--gold-soft)]">
                       Trusted comfort care
                     </p>
-                    <h2 className="mt-2 text-2xl font-semibold text-white md:text-[30px]">
+                    <h2 className="mt-2 text-2xl font-semibold text-white md:text-[28px]">
                       A company you can trust.
                     </h2>
                   </div>
@@ -124,7 +124,7 @@ export default function HomePage() {
                   ))}
                 </div>
 
-                <div className="mt-4 rounded-2xl border border-[var(--gold)]/20 bg-[var(--green)]/80 px-4 py-4">
+                <div className="mt-3 rounded-2xl border border-[var(--gold)]/20 bg-[var(--green)]/80 px-4 py-4">
                   <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--gold-soft)]">
                     Seasonal Savings
                   </p>
@@ -132,7 +132,8 @@ export default function HomePage() {
                     Nothing like the ELITE way.
                   </p>
                   <p className="mt-1 text-sm leading-6 text-slate-100">
-                    Flexible comfort solutions, fair pricing, and service that feels easy from start to finish.
+                    Flexible comfort solutions, fair pricing, and service that
+                    feels easy from start to finish.
                   </p>
                 </div>
               </div>
@@ -168,8 +169,9 @@ export default function HomePage() {
             </h2>
           </div>
           <p className="max-w-xl text-sm leading-7 text-slate-600 md:justify-self-end md:text-base">
-            Whether you need a quick repair, a new system installation, or year-round maintenance,
-            Elite Air is here to keep your home or business comfortable.
+            Whether you need a quick repair, a new system installation, or
+            year-round maintenance, Elite Air is here to keep your home or
+            business comfortable.
           </p>
         </div>
 
@@ -206,7 +208,8 @@ export default function HomePage() {
               We deliver comfort with honesty.
             </h2>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-200 md:text-base">
-              We show up, explain your options clearly, and help you make the right decision for your home or business.
+              We show up, explain your options clearly, and help you make the
+              right decision for your home or business.
             </p>
 
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
@@ -234,7 +237,8 @@ export default function HomePage() {
               Seasonal specials that make comfort more affordable.
             </h3>
             <p className="mt-4 text-sm leading-7 text-slate-600 md:text-base">
-              Ask about current discounts, tune-up specials, and financing options designed to fit your budget.
+              Ask about current discounts, tune-up specials, and financing
+              options designed to fit your budget.
             </p>
             <button className="mt-6 rounded-full bg-[var(--red)] px-5 py-3 text-sm font-semibold text-white transition hover:brightness-110">
               Schedule an Estimate
@@ -253,7 +257,9 @@ export default function HomePage() {
               Making total home comfort comfortably affordable.
             </h2>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600 md:text-base">
-              Ask about financing options, membership plans, and seasonal maintenance designed to keep your system running efficiently all year long.
+              Ask about financing options, membership plans, and seasonal
+              maintenance designed to keep your system running efficiently all
+              year long.
             </p>
           </div>
           <button className="rounded-full border border-[var(--navy)] px-6 py-3 text-sm font-semibold text-[var(--navy)] transition hover:bg-[var(--navy)] hover:text-white">
@@ -272,7 +278,8 @@ export default function HomePage() {
               Have the ELITE take care of it for you.
             </h2>
             <p className="mt-4 text-sm leading-7 text-red-50 md:text-base">
-              From repairs and tune-ups to full system replacements, Elite Air is ready to help you stay comfortable in every season.
+              From repairs and tune-ups to full system replacements, Elite Air
+              is ready to help you stay comfortable in every season.
             </p>
           </div>
           <div className="mt-6 flex flex-wrap gap-3 md:mt-0">

@@ -16,9 +16,8 @@ export function Header() {
 
   return (
     <header className="text-white shadow-[0_10px_35px_rgba(0,0,0,0.35)]">
-      {/* top strip */}
       <div className="bg-[var(--navy-soft)]">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-2 text-[11px] uppercase tracking-[0.16em]">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3 text-[11px] uppercase tracking-[0.16em]">
           <div className="flex gap-6 text-white/75">
             <button className="hover:text-white">Savings</button>
             <button className="hover:text-white">Financing</button>
@@ -39,25 +38,23 @@ export function Header() {
         </div>
       </div>
 
-      {/* main nav (no white) */}
-      <div className="bg-[var(--navy)]/95 border-b border-black/40">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-          {/* logo */}
+      <div className="border-b border-black/40 bg-[var(--navy)]/95">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
           <Link href="/" className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[linear-gradient(135deg,var(--red),var(--green))] text-xs font-bold text-white shadow-md">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[linear-gradient(135deg,var(--red),var(--green))] text-sm font-bold text-white shadow-md">
               EA
             </div>
             <div className="leading-tight">
-              <p className="text-sm font-semibold tracking-[0.18em] uppercase">
+              <p className="text-base font-semibold uppercase tracking-[0.18em]">
                 Elite Air
               </p>
-              <p className="text-[11px] text-[var(--gold)] font-medium uppercase tracking-[0.18em]">
+              <p className="text-xs font-medium uppercase tracking-[0.18em] text-[var(--gold)]">
                 Heating &amp; Cooling Company
               </p>
             </div>
           </Link>
 
-          <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
+          <nav className="hidden items-center gap-7 text-sm font-medium md:flex">
             {navLinks.map((link) => {
               const active = pathname === link.href;
               return (
@@ -78,7 +75,7 @@ export function Header() {
 
           <Link
             href="/contact"
-            className="hidden items-center rounded-full border border-[var(--gold)] bg-black/30 px-4 py-2 text-xs font-semibold text-[var(--gold)] hover:bg-[var(--gold)] hover:text-[var(--navy)] transition md:inline-flex"
+            className="hidden items-center rounded-full border border-[var(--gold)] bg-black/30 px-5 py-2.5 text-xs font-semibold text-[var(--gold)] transition hover:bg-[var(--gold)] hover:text-[var(--navy)] md:inline-flex"
           >
             Request Service
           </Link>
